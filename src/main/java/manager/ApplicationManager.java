@@ -15,7 +15,6 @@ public class ApplicationManager {
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/");
         helperUser = new HelperUser(wd);
-
     }
 
     public HelperUser getHelperUser() {
@@ -23,7 +22,6 @@ public class ApplicationManager {
     }
 
     public void stop(){
-        wd.quit();
-
+        //wd.quit();
     }
 }
