@@ -15,6 +15,7 @@ public class RegistrationTests extends TestBase{
     @Test
     public void positiveRegistration(){
         int index = (int) (System.currentTimeMillis()/1000)%3600;
+        logger.info("The test runs with email \"robi\"+index+\"@mail.ru\" and password \"Robi1234$\"");
 
         app.getHelperUser().openLoginRegForm();
         app.getHelperUser().fillLoginRegForm("robi"+index+"@mail.ru", "Robi1234$");
@@ -24,6 +25,7 @@ public class RegistrationTests extends TestBase{
     @Test
     public void positiveRegistrationModel(){
         int index = (int) (System.currentTimeMillis()/1000)%3600;
+        logger.info("The test runs with email \"robi\"+index+\"@mail.ru\" and password \"Robi1234$\"");
         User user = new User().withEmail("robi"+index+"@mail.ru").withPassword("Robi1234$");
 
         app.getHelperUser().openLoginRegForm();

@@ -1,0 +1,7 @@
+12:28:05.860 INFO  manager.ApplicationManager - All tests start in ChromeDriver
+12:28:07.590 INFO  tests.TestBase - Starts test --->public void tests.RegistrationTests.positiveRegistration()
+12:28:12.663 INFO  tests.TestBase - The test runs with email "robi"+index+"@mail.ru" and password "Robi1234$"
+12:28:14.039 INFO  tests.TestBase - Ends test   --->public void tests.RegistrationTests.positiveRegistration()
+12:28:14.044 INFO  tests.TestBase - Starts test --->public void tests.RegistrationTests.positiveRegistrationModel()
+12:28:14.130 INFO  tests.TestBase - The test runs with email "robi"+index+"@mail.ru" and password "Robi1234$"
+12:28:14.821 INFO  tests.TestBase - Ends test   --->public void tests.RegistrationTests.positiveRegistrationModel()

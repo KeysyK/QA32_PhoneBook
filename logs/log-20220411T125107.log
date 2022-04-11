@@ -1,0 +1,5 @@
+12:51:09.775 INFO  manager.ApplicationManager - All tests start in ChromeDriver
+12:51:11.894 INFO  tests.TestBase - Starts test --->public void tests.AddNewContactTest.addNewContactSuccess()
+12:51:17.711 INFO  tests.TestBase - New contact data: "John"+index, "Dow", "1234567"+index, "john"+index+"@mail.com", "Rehovot", "The best friend"
+12:51:22.368 INFO  tests.TestBase - See screenshot in screenshot folder
+12:51:22.728 INFO  tests.TestBase - Ends test   --->public void tests.AddNewContactTest.addNewContactSuccess()

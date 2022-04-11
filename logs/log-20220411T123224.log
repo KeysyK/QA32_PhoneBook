@@ -1,0 +1,10 @@
+12:32:26.509 INFO  manager.ApplicationManager - All tests start in ChromeDriver
+12:32:28.012 INFO  tests.TestBase - Starts test --->public void tests.LoginTests.loginNegativeTestWrongPassport()
+12:32:33.051 INFO  tests.TestBase - The test runs with email "arielle@gmail.com" and password "Arielle"
+12:32:34.309 INFO  tests.TestBase - Ends test   --->public void tests.LoginTests.loginNegativeTestWrongPassport()
+12:32:34.315 INFO  tests.TestBase - Starts test --->public void tests.LoginTests.loginSuccessNew()
+12:32:39.395 INFO  tests.TestBase - The test runs with email "arielle@gmail.com" and password "Arielle1234$"
+12:32:40.707 INFO  tests.TestBase - Ends test   --->public void tests.LoginTests.loginSuccessNew()
+12:32:40.713 INFO  tests.TestBase - Starts test --->public void tests.LoginTests.loginSuccessNewModel()
+12:32:40.942 INFO  tests.TestBase - The test runs with email "arielle@gmail.com" and password "Arielle1234$"
+12:32:42.082 INFO  tests.TestBase - Ends test   --->public void tests.LoginTests.loginSuccessNewModel()
